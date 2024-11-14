@@ -1,7 +1,7 @@
 import org.jenkinsci.plugins.pipeline.utility.steps.fs.FileWrapper
 
-def oldB = T26.0_PDM
-def newB = T26.1_PDM
+def oldB = 'T26.0_PDM'
+def newB = 'T26.1_PDM'
 
 
 pipeline{

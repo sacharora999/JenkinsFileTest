@@ -34,3 +34,6 @@ Images are READ ONLY, we have to rebuild the images everytime we changes the sou
 Commands
 docker attach <cid>
 docker logs -f <cid>     # Future Logs
+docker rm <cid>
+docker rmi <iid>
+docker image prune  ## All unsed images

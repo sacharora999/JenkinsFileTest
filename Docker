@@ -37,3 +37,4 @@ docker logs -f <cid>     # Future Logs
 docker rm <cid>
 docker rmi <iid>
 docker image prune  ## All unsed images
+docker run -p 3000:80 -d -rm <iid>     ## Auto removes stopped containers

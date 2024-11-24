@@ -1,0 +1,9 @@
+Run Vs CMD
+Run : To execuet commands with image
+CMD : Once the container is created, for ex to start the node server
+
+FROM node
+WORKDIR /app
+COPY . /app
+RUN npm install
+CMD node server.js

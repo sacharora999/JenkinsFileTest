@@ -10,6 +10,18 @@ EXPOSE 80   // For Documentsion Purpose Optional
 CMD ["node", "server.js"]
 
 
+
+Optimized Version
+
+FROM node
+WORKDIR /app
+COPY packaje.json /app
+RUN npm install
+COPY . /app
+EXPOSE 80   // For Documentsion Purpose Optional
+CMD ["node", "server.js"]
+
+
 docker run -p 3000:80 10494cc87660
 
 Images are READ ONLY, we have to rebuild the images everytime we changes the source code

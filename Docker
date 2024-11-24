@@ -25,3 +25,12 @@ CMD ["node", "server.js"]
 docker run -p 3000:80 10494cc87660
 
 Images are READ ONLY, we have to rebuild the images everytime we changes the source code
+
+
+
+
+
+
+Commands
+docker attach <cid>
+docker logs -f <cid>     # Future Logs

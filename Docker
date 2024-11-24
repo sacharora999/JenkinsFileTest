@@ -6,8 +6,10 @@ FROM node
 WORKDIR /app
 COPY . /app
 RUN npm install
-EXPOSE 80
+EXPOSE 80   // For Documentsion Purpose Optional
 CMD ["node", "server.js"]
 
+
+docker run -p 3000:80 10494cc87660
 
 Images are READ ONLY, we have to rebuild the images everytime we changes the source code

@@ -18,7 +18,7 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-EXPOSE 80   // For Documentsion Purpose Optional
+EXPOSE 80   // For Documentation Purpose Optional
 CMD ["node", "server.js"]
 
 

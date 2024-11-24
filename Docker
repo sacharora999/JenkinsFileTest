@@ -8,3 +8,6 @@ COPY . /app
 RUN npm install
 EXPOSE 80
 CMD ["node", "server.js"]
+
+
+Images are READ ONLY, we have to rebuild the images everytime we changes the source code
